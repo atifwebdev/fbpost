@@ -1,0 +1,115 @@
+.boxfb {
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px gray;
+  padding: 0.5rem;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.lfsidetop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profImg img {
+  width: 95px;
+}
+
+.profImg {
+  padding: 20px;
+  border: 2px solid #1876F2;
+  border-radius: 50%;
+}
+
+.profinfo {
+  margin-left: 15px;
+}
+
+.profinfo h2 {
+  margin: 15px 0;
+}
+
+.profinfo span {
+  color: #65676B;
+}
+
+.profinfo svg {
+  margin: -2px 0;
+  color: #65676B;
+}
+
+.rtsidetop span {
+  margin: 10px;
+}
+.middle p {
+  margin: 10px 5px;
+}
+.postReached {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bottom {
+  margin: 20px;
+}
+
+.middle {
+  margin: 20px;
+}
+
+.middle img {
+  width: 100%;
+}
+span.likeIcon {
+  background-color: #0a82ec;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+span.likeIcon svg {
+  color: white;
+}
+
+span.loveIcon {
+  background-color: #E61A43;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+span.loveIcon svg {
+  color: white;
+}
+
+.postBtns {
+  border-top: 1px solid gray;
+  margin: 18px 0;
+  padding: 20px;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.postBtns span {
+  font-size: 20px;
+}
+
+.likeBtn {
+  display: flex;
+}
+
+.comntBtn {
+  display: flex;
+}
+
+.shareBtn {
+  display: flex;
+}
